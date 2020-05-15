@@ -1,0 +1,12 @@
+name: sleep300s
+control:
+  mode: basic
+wants:
+  cpu: 0.01
+  memory: 1
+command:
+  shell: true
+  arguments:
+    - "300"
+  value: >-
+    sleep
