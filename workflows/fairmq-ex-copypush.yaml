@@ -19,3 +19,7 @@ roles:
   - name: "sampler"
     task:
       load: fairmq-ex-copypush-sampler
+  - name: "odcrole"
+    task:
+      load: odc-shim
+
